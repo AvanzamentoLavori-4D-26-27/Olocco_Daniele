@@ -1,0 +1,79 @@
+.cella {
+    width: 50px;
+    height: 50px;
+    border: solid 2px black;
+    display: flex;
+    font-weight: bold;
+    justify-content: center;
+}
+
+#griglia {
+    display: flex;
+    justify-content: center;
+}
+.container2{
+    width: 60%;
+    height: 80vh;
+    margin-left: 20%;
+    display: flex;
+
+}
+.container3{
+    width: 30%;
+    height: 90%;
+    background-color:rgb(39, 133, 255);
+    margin-left: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.p1{
+    color: orange;
+    font-weight: bold;
+}
+.button{
+    background-color: green;
+    color: white;
+    width: 70%;
+    border-radius: 8px;
+}
+.button2{
+    background-color: rgb(139, 139, 139);
+    color: white;
+    width: 70%;
+    border-radius: 8px;
+}
+.c{
+    color: white;
+}
+.cont{
+    margin-top: 60px;
+    background-color: rgb(255, 217, 0);
+    width: 60%;
+    height: 40vh;
+    margin-left: 20%;
+}
+#parole{
+    display: flex;
+    justify-content: center;
+    color:rgb(120, 112, 24);
+    flex-direction: column;
+    align-items: center;
+}
+.parl{
+    font-weight: bold;
+}
+#pr{
+   margin-top: 30px; 
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); 
+    gap: 30px;
+}
+.cella:active{
+    cursor:not-allowed;
+    
+}
+.cella:hover{
+    cursor: pointer;
+        background-color: rgb(234, 234, 163);
+}
